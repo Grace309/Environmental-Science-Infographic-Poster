@@ -120,7 +120,7 @@
     z-index: 1;
     background: #ffffff;
     margin: -4px 22px 0;
-    padding: 7px 14px 6px 16px;
+    padding: 8px 14px 7px 16px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     border-left: 4px solid #2a9d8f;
@@ -146,7 +146,7 @@
     font-weight: 400;
     font-size: 12px;
     color: #264653;
-    margin: 5px 22px 2px;
+    margin: 7px 22px 4px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -173,10 +173,10 @@
   .lifecycle {
     display: flex;
     align-items: center;
-    margin: 0 22px 3px;
+    margin: 0 22px 6px;
     background: #ffffff;
-    border-radius: 12px;
-    padding: 6px 12px;
+    border-radius: 16px;
+    padding: 9px 10px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.04);
     gap: 0;
   }
@@ -229,7 +229,7 @@
   .stats-row {
     display: flex;
     gap: 7px;
-    margin: 0 22px 3px;
+    margin: 0 22px 6px;
   }
 
   .stat-card {
@@ -287,7 +287,7 @@
   .two-col {
     display: flex;
     gap: 8px;
-    margin: 0 22px 3px;
+    margin: 0 22px 6px;
   }
 
   .col-left { flex: 1.15; }
@@ -345,17 +345,53 @@
   }
 
   /* ===== IMPACTS ===== */
+  .impacts-row {
+    display: flex;
+    gap: 8px;
+    margin: 0 22px 11px;
+    align-items: stretch;
+  }
+
+  .impacts-photo {
+    flex: 0 0 240px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.10);
+  }
+
+  .impacts-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .impacts-photo .photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.9);
+    background: linear-gradient(transparent, rgba(27,67,50,0.7));
+    padding: 14px 8px 5px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+
   .impacts-grid {
+    flex: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
-    margin: 0 22px 5px;
   }
 
   .impact-card {
     background: #ffffff;
     border-radius: 12px;
-    padding: 6px 10px 4px;
+    padding: 8px 10px 6px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.04);
     position: relative;
     overflow: hidden;
@@ -377,18 +413,18 @@
   .impact-header {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     margin-bottom: 2px;
     margin-left: 2px;
   }
 
   .impact-icon-circle {
-    width: 24px; height: 24px;
-    border-radius: 8px;
+    width: 20px; height: 20px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 10px;
     flex-shrink: 0;
   }
 
@@ -414,10 +450,10 @@
 
   /* ===== SOLUTIONS ===== */
   .solutions-wrap {
-    margin: 0 22px 3px;
+    margin: 0 22px 5px;
     background: linear-gradient(135deg, #264653 0%, #1b4332 50%, #2d6a4f 100%);
     border-radius: 12px;
-    padding: 7px 12px;
+    padding: 11px 14px;
     box-shadow: 0 4px 20px rgba(38,70,83,0.2);
   }
 
@@ -447,33 +483,33 @@
   .solutions-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 6px;
   }
 
   .sol-item {
     background: rgba(255,255,255,0.08);
     border: 1px solid rgba(255,255,255,0.12);
     border-radius: 10px;
-    padding: 3px 5px 2px;
+    padding: 7px 7px 6px;
     text-align: center;
     backdrop-filter: blur(4px);
   }
 
   .sol-icon {
-    width: 24px; height: 24px;
+    width: 26px; height: 26px;
     border-radius: 8px;
     background: rgba(233,196,106,0.15);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 2px;
-    font-size: 12px;
+    margin: 0 auto 3px;
+    font-size: 13px;
   }
 
   .sol-name {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
-    font-size: 9.5px;
+    font-size: 10px;
     color: #e9c46a;
     text-transform: uppercase;
     letter-spacing: 0.3px;
@@ -481,8 +517,8 @@
   }
 
   .sol-text {
-    font-size: 8.5px;
-    color: rgba(255,255,255,0.6);
+    font-size: 9px;
+    color: rgba(255,255,255,0.65);
     line-height: 1.3;
   }
 
@@ -541,11 +577,9 @@
   <!-- ===== TOPIC STATEMENT ===== -->
   <div class="topic-statement">
     <p>
-      <span class="hl">Fast fashion</span> refers to the rapid production of inexpensive clothing that mimics current luxury fashion trends, designed for short-term use and quick disposal.<sup>1</sup> 
-      Canada is one of the highest per-capita consumers of textiles in the world. Canadians purchase an estimated <span class="hl">70 new garments per person annually</span>, yet 
-      the average garment is worn only <span class="hl">7–10 times</span> before being discarded.<sup>2,3</sup> The environmental consequences of this linear "take-make-dispose" model are severe, contributing to 
-      <span class="hl">greenhouse gas emissions, water pollution, microplastic contamination, and massive textile waste</span> in Canadian landfills.<sup>4</sup> The fashion industry alone accounts for approximately 
-      <span class="hl">8–10% of global carbon emissions</span> — more than international flights and maritime shipping combined.<sup>5</sup>
+      <span class="hl">Fast fashion</span> — the rapid production of inexpensive, trend-driven clothing — drives a linear "take-make-dispose" model with severe environmental consequences.<sup>1</sup>
+      Canadians purchase an estimated <span class="hl">70 garments per person annually</span>, yet the average item is worn only <span class="hl">7–10 times</span>.<sup>2,3</sup>
+      The fashion industry accounts for <span class="hl">8–10% of global carbon emissions</span> — more than international flights and shipping combined.<sup>5</sup>
     </p>
   </div>
 
@@ -782,41 +816,47 @@
 
   <!-- ===== ENVIRONMENTAL IMPACTS ===== -->
   <div class="sec-title"><span class="num">04</span> Environmental Impacts in Canada</div>
-  <div class="impacts-grid">
-    <div class="impact-card">
-      <div class="impact-header">
-        <div class="impact-icon-circle">🔥</div>
-        <div class="impact-name">Carbon Emissions</div>
-      </div>
-      <div class="impact-text">
-        Canada's textile sector contributes to GHG emissions across the supply chain. Globally, fashion produces ~1.2 Gt CO₂/yr — more than aviation and shipping combined. Synthetic fibres derived from fossil fuels generate emissions during both production and incineration.<sup>4,5</sup>
-      </div>
+  <div class="impacts-row">
+    <div class="impacts-photo">
+      <img src="Fast-Fashion-Environmental-Impact-The-True-Cost-of-Cheap-Clothes-featured-image-640x427.webp" alt="Environmental impact of fast fashion">
+      <div class="photo-caption">The True Cost of Cheap Clothes</div>
     </div>
-    <div class="impact-card">
-      <div class="impact-header">
-        <div class="impact-icon-circle">💧</div>
-        <div class="impact-name">Water Pollution</div>
+    <div class="impacts-grid">
+      <div class="impact-card">
+        <div class="impact-header">
+          <div class="impact-icon-circle">🔥</div>
+          <div class="impact-name">Carbon Emissions</div>
+        </div>
+        <div class="impact-text">
+          Fashion produces ~1.2 Gt CO₂/yr globally. Synthetic fibres from fossil fuels generate emissions during production and incineration.<sup>4,5</sup>
+        </div>
       </div>
-      <div class="impact-text">
-        Fashion consumes ~93 billion m³ of water per year globally. Textile dyeing is the 2nd-largest water polluter worldwide. In Canada, wastewater from textile processes introduces heavy metals and toxic chemicals into freshwater ecosystems.<sup>3,4</sup>
+      <div class="impact-card">
+        <div class="impact-header">
+          <div class="impact-icon-circle">💧</div>
+          <div class="impact-name">Water Pollution</div>
+        </div>
+        <div class="impact-text">
+          Fashion consumes ~93 billion m³ of water/yr. Textile dyeing is the 2nd-largest water polluter, introducing heavy metals into freshwater.<sup>3,4</sup>
+        </div>
       </div>
-    </div>
-    <div class="impact-card">
-      <div class="impact-header">
-        <div class="impact-icon-circle">🗑️</div>
-        <div class="impact-name">Landfill &amp; Waste</div>
+      <div class="impact-card">
+        <div class="impact-header">
+          <div class="impact-icon-circle">🗑️</div>
+          <div class="impact-name">Landfill &amp; Waste</div>
+        </div>
+        <div class="impact-text">
+          Canadians send ~12 kg of textile waste per person to landfills annually. Synthetics take 20–200 years to decompose.<sup>1,2</sup>
+        </div>
       </div>
-      <div class="impact-text">
-        Canadians send ~12 kg of textile waste per person to landfills annually — over 500,000 tonnes nationally. Synthetics take 20–200 years to decompose, releasing methane. Only ~15% of textiles are diverted from landfills.<sup>1,2</sup>
-      </div>
-    </div>
-    <div class="impact-card">
-      <div class="impact-header">
-        <div class="impact-icon-circle">🌿</div>
-        <div class="impact-name">Biodiversity Loss</div>
-      </div>
-      <div class="impact-text">
-        Cotton uses 6% of global pesticides and 16% of insecticides. Intensive monoculture causes soil degradation and biodiversity loss. Expansion of fibre crops drives deforestation in regions supplying Canadian retailers.<sup>4,5</sup>
+      <div class="impact-card">
+        <div class="impact-header">
+          <div class="impact-icon-circle">🌿</div>
+          <div class="impact-name">Biodiversity Loss</div>
+        </div>
+        <div class="impact-text">
+          Cotton uses 6% of global pesticides and 16% of insecticides. Fibre crop expansion drives deforestation globally.<sup>4,5</sup>
+        </div>
       </div>
     </div>
   </div>
@@ -831,32 +871,32 @@
       <div class="sol-item">
         <div class="sol-icon">👗</div>
         <div class="sol-name">Buy Less, Choose Well</div>
-        <div class="sol-text">Invest in durable garments. Reducing purchases by 30% could cut emissions equal to removing 1M cars from roads.<sup>3</sup></div>
+        <div class="sol-text">Invest in durable garments — reducing purchases by 30% could cut emissions equal to removing 1M cars.<sup>3</sup></div>
       </div>
       <div class="sol-item">
         <div class="sol-icon">🔄</div>
         <div class="sol-name">Thrift &amp; Swap</div>
-        <div class="sol-text">Shop second-hand or organize swaps. Canada's resale market extends garment lifespans and reduces new production demand.<sup>2</sup></div>
+        <div class="sol-text">Shop second-hand or organize clothing swaps to extend garment lifespans.<sup>2</sup></div>
       </div>
       <div class="sol-item">
         <div class="sol-icon">♻️</div>
         <div class="sol-name">Recycle &amp; Donate</div>
-        <div class="sol-text">Use textile recycling programs. Many Canadian cities offer curbside textile collection to divert clothing from landfills.<sup>1</sup></div>
+        <div class="sol-text">Use textile recycling programs — many Canadian cities offer curbside collection.<sup>1</sup></div>
       </div>
       <div class="sol-item">
         <div class="sol-icon">🧊</div>
         <div class="sol-name">Wash Mindfully</div>
-        <div class="sol-text">Cold water, full loads, and microfibre-catching bags can reduce microplastic release by up to 80% per cycle.<sup>3</sup></div>
+        <div class="sol-text">Cold water and microfibre bags reduce microplastic release by up to 80%.<sup>3</sup></div>
       </div>
       <div class="sol-item">
         <div class="sol-icon">📋</div>
         <div class="sol-name">Advocate for Policy</div>
-        <div class="sol-text">Support extended producer responsibility (EPR). Canada is developing federal textile waste strategy under Zero Plastic Waste.<sup>1</sup></div>
+        <div class="sol-text">Support extended producer responsibility (EPR) under Canada's Zero Plastic Waste strategy.<sup>1</sup></div>
       </div>
       <div class="sol-item">
         <div class="sol-icon">🌱</div>
         <div class="sol-name">Sustainable Fabrics</div>
-        <div class="sol-text">Choose organic cotton, TENCEL™, or recycled fibres. Look for GOTS, OEKO-TEX, and Fair Trade certifications.<sup>4</sup></div>
+        <div class="sol-text">Choose organic cotton, TENCEL™, or recycled fibres with GOTS/OEKO-TEX certification.<sup>4</sup></div>
       </div>
     </div>
   </div>

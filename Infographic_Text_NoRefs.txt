@@ -2,47 +2,44 @@ Fast Fashion: Environmental Impact in Canada
 Understanding the Hidden Cost of Cheap Clothing
 
 TOPIC STATEMENT
-Fast fashion refers to the rapid production of inexpensive clothing that mimics current luxury fashion trends, designed for short-term use and quick disposal (Environment and Climate Change Canada, 2023). Canada is one of the highest per-capita consumers of textiles in the world. Canadians purchase an estimated 70 new garments per person annually, yet the average garment is worn only 7–10 times before being discarded (Statistics Canada, 2023; Ellen MacArthur Foundation, 2017). The environmental consequences of this linear "take-make-dispose" model are severe, contributing to greenhouse gas emissions, water pollution, microplastic contamination, and massive textile waste in Canadian landfills (UNEP, 2023). The fashion industry alone accounts for approximately 8–10% of global carbon emissions — more than international flights and maritime shipping combined (IPCC, 2022).
+Fast fashion — the rapid production of inexpensive, trend-driven clothing — drives a linear "take-make-dispose" model with severe environmental consequences. Canadians purchase an estimated 70 garments per person annually, yet the average item is worn only 7–10 times. The fashion industry accounts for 8–10% of global carbon emissions — more than international flights and shipping combined.
 
 KEY STATISTICS
-- Canadians send approximately 12 kilograms of textile waste per person per year to landfill (Environment and Climate Change Canada, 2023).
-- It takes roughly 2,700 litres of water to produce a single cotton T-shirt (Ellen MacArthur Foundation, 2017).
-- The global fashion industry emits approximately 1.2 gigatonnes of CO₂ per year (UNEP, 2023).
-- Less than 1% of clothing is recycled into new garments worldwide (Ellen MacArthur Foundation, 2017).
+- Canadians send approximately 12 kilograms of textile waste per person per year to landfill.
+- It takes roughly 2,700 litres of water to produce a single cotton T-shirt.
+- The global fashion industry emits approximately 1.2 gigatonnes of CO₂ per year.
+- Less than 1% of clothing is recycled into new garments worldwide.
 
 ENVIRONMENTAL IMPACTS IN CANADA
 
 Carbon Emissions
-Canada's textile and clothing sector contributes to greenhouse gas emissions throughout the supply chain. Globally, fashion produces approximately 1.2 gigatonnes of CO₂ annually — more than aviation and shipping combined. Due to the reliance on synthetic fibres derived from fossil fuels, emissions occur during both production and incineration of discarded garments (UNEP, 2023; IPCC, 2022).
+Fashion produces ~1.2 Gt CO₂/yr globally. Synthetic fibres from fossil fuels generate emissions during production and incineration.
 
-Water Consumption and Pollution
-The fashion industry consumes approximately 93 billion cubic metres of water per year globally. Textile dyeing is the second-largest polluter of water worldwide. In Canada, contaminated wastewater from textile processes introduces heavy metals and toxic chemicals like formaldehyde and chlorine bleach into freshwater ecosystems (Ellen MacArthur Foundation, 2017; UNEP, 2023).
+Water Pollution
+Fashion consumes ~93 billion m³ of water/yr. Textile dyeing is the 2nd-largest water polluter, introducing heavy metals into freshwater.
 
-Landfill and Waste Crisis
-Canadians send an estimated 12 kilograms of textile waste per person to landfills each year, totalling over 500,000 tonnes nationally. Synthetic textiles can take 20–200 years to decompose and release methane, a potent greenhouse gas, during decomposition. Only about 15% of post-consumer textiles are diverted from landfills in Canada (Environment and Climate Change Canada, 2023; Statistics Canada, 2023).
+Landfill & Waste
+Canadians send ~12 kg of textile waste per person to landfills annually. Synthetics take 20–200 years to decompose.
 
-Biodiversity and Land Use
-Cotton cultivation, a key raw material in fashion, uses 6% of the world's pesticides and 16% of insecticides. This intensive monoculture farming leads to soil degradation and biodiversity loss. The expansion of land for fibre crops has contributed to deforestation and habitat destruction in regions supplying Canadian retailers (UNEP, 2023; IPCC, 2022).
-
-Microplastic Pollution in Canadian Waters
-Approximately 35% of primary microplastics in the world's oceans originate from washing synthetic textiles such as polyester and nylon (UNEP, 2023). In Canada, microplastics have been detected in the Great Lakes, the St. Lawrence River, and Arctic waters, with textile fibres being the most prevalent type identified (Environment and Climate Change Canada, 2023). A single domestic wash cycle can release up to 700,000 microplastic fibres into waterways (Ellen MacArthur Foundation, 2017).
+Biodiversity Loss
+Cotton uses 6% of global pesticides and 16% of insecticides. Fibre crop expansion drives deforestation globally.
 
 SOLUTIONS: HOW YOU CAN HELP
 
 Buy Less, Choose Well
-Invest in quality, durable garments. Reducing purchases by 30% could cut emissions equivalent to taking 1 million cars off roads (Ellen MacArthur Foundation, 2017).
+Invest in durable garments — reducing purchases by 30% could cut emissions equal to removing 1M cars.
 
-Thrift and Swap
-Shop second-hand or organize clothing swaps. Canada's resale market is growing rapidly, extending garment lifespans and reducing demand for new production (Statistics Canada, 2023).
+Thrift & Swap
+Shop second-hand or organize clothing swaps to extend garment lifespans.
 
-Recycle and Donate
-Use municipal textile recycling programs. Many Canadian cities now offer curbside textile collection to divert clothing from landfills (Environment and Climate Change Canada, 2023).
+Recycle & Donate
+Use textile recycling programs — many Canadian cities offer curbside collection.
 
 Wash Mindfully
-Use cold water, full loads, and microfibre-catching laundry bags to reduce microplastic release by up to 80% per wash cycle (Ellen MacArthur Foundation, 2017).
+Cold water and microfibre bags reduce microplastic release by up to 80%.
 
 Advocate for Policy
-Support extended producer responsibility (EPR) policies. Canada is developing a federal strategy on textile waste management under the Zero Plastic Waste agenda (Environment and Climate Change Canada, 2023).
+Support extended producer responsibility (EPR) under Canada's Zero Plastic Waste strategy.
 
-Choose Sustainable Fabrics
-Opt for certified organic cotton, TENCEL, or recycled fibres. Look for certifications like GOTS, OEKO-TEX, and Fair Trade (UNEP, 2023).
+Sustainable Fabrics
+Choose organic cotton, TENCEL™, or recycled fibres with GOTS/OEKO-TEX certification.
